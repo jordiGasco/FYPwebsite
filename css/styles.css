@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.div {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    display: flex;
+    gap: 20px; /* Espaciado entre elementos */
+    list-style: none; /* Eliminar viñetas */
+    padding: 0;
+    justify-content: center; /* Centrar elementos horizontalmente */
+}
+
+li {
+    display: flex;
+    flex-direction: column; /* Coloca la imagen encima del enlace */
+    align-items: center; /* Centra los elementos dentro del `li` */
+    text-align: center;
+}
+
+li img {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 5px; /* Espaciado entre imagen y enlace */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; /* Ajusta el ancho para que ocupe casi toda la pantalla */
+    max-width: 1200px; /* Para evitar que sea demasiado ancho en pantallas grandes */
+    margin: 20px auto; /* Centrar el bloque en la página */
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo opcional */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un mejor diseño */
+}
+
+.profile-image {
+    width: 180px; /* Ajusta el tamaño de la imagen */
+    height: 180px;
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+}
+
+.profile-description {
+    flex: 1; /* Hace que el texto ocupe todo el espacio disponible */
+    text-align: left;
+}
+
+.profile-description h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.profile-description p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.links-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.links-container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-width: 150px; /* Asegura que todos los elementos tengan el mismo ancho */
+}
+
+.links-container img {
+    width: 100px; /* Tamaño uniforme para todas las imágenes */
+    height: 100px; /* Mantiene la proporción cuadrada */
+    object-fit: contain; /* Asegura que las imágenes mantengan su relación de aspecto */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white; /* Agrega un fondo para mejorar la visibilidad */
+    padding: 10px; /* Asegura que todas las imágenes tengan el mismo espacio */
+}
+
+.links-container a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 180px; /* Igualar el ancho de los botones */
+    text-align: center;
+}
+
+.links-container a:hover {
+    background-color: #0056b3;
+}
+
+.titles-container {
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titles-content {
+    max-width: 600px; /* Ajusta el ancho del texto */
+    text-align: left;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column; /* Asegura que el título esté arriba y el texto abajo */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.description-title {
+    font-size: 20px;
+    margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
+}
+
+.description-container p {
+    max-width: 800px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
